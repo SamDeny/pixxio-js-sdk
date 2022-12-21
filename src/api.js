@@ -1,5 +1,5 @@
 import axios from "axios";
-import { accessToken, appKey, mediaspace, refreshToken, proxy } from "./store/store";
+import { accessToken, appKey, mediaspace, refreshToken } from "./store/store";
 
 export class API {
 

@@ -1,45 +1,48 @@
 {
-  "name": "@pixx.io/jsdk",
-  "title": "pixx.io JSDK",
-  "version": "0.4.4",
-  "main": "build/esm/index.js",
-  "module": "build/esm/index.js",
-  "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv . --port 4300",
-    "release": "npm run build && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pixx-io/jsdk.git"
-  },
-  "homepage": "https://github.com/pixx-io/jsdk#readme",
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "sass": "^1.43.4",
-    "sirv-cli": "^1.0.0",
-    "svelte": "^3.0.0",
-    "svelte-preprocess": "^4.6.9"
-  },
-  "description": "This Library helps you to integrate pixx.io DAM Features to your application.",
-  "bugs": {
-    "url": "https://github.com/pixx-io/jsdk/issues"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@rollup/plugin-replace": "^3.0.1",
-    "axios": "^0.24.0",
-    "http-proxy": "^1.18.1",
-    "https-proxy-agent": "^5.0.0",
-    "svelte-select": "^4.4.7",
-    "tippy.js": "^6.3.7"
-  }
+    "name": "@pixx.io/jsdk",
+    "version": "0.4.6",
+    "title": "pixx.io JSDK",
+    "homepage": "https://github.com/pixx-io/jsdk#readme",
+    "description": "The pixx.io JavaScript SDK library to integrate our API and DAM features into your web-based application.",
+    "author": "pixx.io (https://www.pixx.io/)",
+    "license": "MIT",
+    "contributors": [
+        "Sam <info@rat.md> (https://www.rat.md)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pixx-io/jsdk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pixx-io/jsdk/issues"
+    },
+    "main": "build/esm/index.js",
+    "module": "build/esm/index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "start": "sirv . --port 4300",
+        "release": "npm run build && npm publish"
+    },
+    "dependencies": {
+        "axios": "^1.2.1",
+        "http-proxy": "^1.18.1",
+        "https-proxy-agent": "^5.0.0",
+        "svelte-select": "^5.0.0",
+        "tippy.js": "^6.3.7"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^24.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "@rollup/plugin-replace": "^5.0.2",
+        "@rollup/plugin-terser": "0.2.0",
+        "rollup": "^3.7.5",
+        "rollup-plugin-css-only": "^4.3.0",
+        "rollup-plugin-livereload": "^2.0.5",
+        "rollup-plugin-svelte": "^7.1.0",
+        "sass": "^1.57.1",
+        "sirv-cli": "^2.0.2",
+        "svelte": "^3.55.0",
+        "svelte-preprocess": "^5.0.0"
+    }
 }

@@ -8,7 +8,7 @@
   </div>
 </div>
 
-<style type="text/scss">
+<style lang="scss">
   @import './styles/variables';
 
 #pixxio-ta-loading {

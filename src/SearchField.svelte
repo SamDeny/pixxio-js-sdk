@@ -21,12 +21,11 @@
   </div>
 </div>
 
-<style type="text/scss" >
+<style lang="scss">
 	@import './styles/variables';
   @import './styles/fields';
 
   .searchField {
     flex: 1;
   }
-  
 </style>

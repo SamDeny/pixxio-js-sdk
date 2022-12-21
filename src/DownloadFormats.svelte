@@ -92,6 +92,7 @@
   <div class="field">
     <Select
       id = 'pixxioDownloadFormats__dropdown'
+      class = 'myselect'
       items = {formats}
       bind:value = {selected} 
       on:select={select}
@@ -113,7 +114,7 @@
   @import './styles/variables';
   @import './styles/fields';
 
-  select {
+  .myselect {
     min-width: 10px;
   }
   .downloadFormats {
